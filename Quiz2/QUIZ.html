@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS-QUIZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/QUIZ.css" />
+    <link rel="icon" href="Capture.ico">
+    <script src="js/QUIZ.js"></script>
+</head>
+<body onload="body()">
+    <h1 id="head"></h1>
+    <div id="resul">
+    <div id="resultbar"><span class="close">x</span><h1 id="score"></h1></div>
+    </div>
+   <div>
+    <button onclick="printo()" id="print">View Result</button>
+   <ol>
+       <li>
+          <p>Does all Html tags have closing tags ?</p>
+          <form>
+              <input type="radio" name="html">True<br/>
+              <input type="radio" name="html" onclick="bani()">False<br/>
+              <input type="radio" name="html">None of the Above<br/><br/>
+          </form>
+       </li>
+        <li>
+           <p>What is the maximum range for heading ?</p>
+           <form>
+               <input type="radio" name="html" onclick="bani()">h1-h6<br/>
+               <input type="radio" name="html">h1-h9<br/>
+               <input type="radio" name="html">h1-h3<br/><br/>
+           </form>
+        </li>
+        <li>
+            <p>What are the types of css we have ?</p>
+               <form>
+                   <input type="radio" name="html">internal,external<br/>
+                   <input type="radio" name="html" onclick="bani()">inline,external,embedded<br/>
+                   <input type="radio" name="html">None of the Above<br/><br/>
+               </form>
+        </li>
+       <li>
+          <p>What are the types of colour inputs we use in Css ?</p>
+          <form>
+              <input type="radio" name="html">Binary,Decimal<br/>
+              <input type="radio" name="html">Colour names<br/>
+              <input type="radio" name="html"  onclick="bani()">RGB,Hexadecimal,colour name<br/><br/>
+          </form>
+       </li>
+            <li>
+               <p>What type of language is html ?</p>
+               <form>
+                   <input type="radio" name="html">Programming language<br/>
+                   <input type="radio" name="html" onclick="bani()">Markup language<br/>
+                   <input type="radio" name="html">It is not a language<br/><br/>
+               </form>
+            </li>
+        </ol>
+        </div>
+</body>
+</html>
